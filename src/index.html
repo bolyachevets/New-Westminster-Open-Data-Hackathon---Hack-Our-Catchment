@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>School Catchment App</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <div class="container-fluid" id="maincanvas">
+          <div class = "col-2">
+          <form id = "layers">
+             <input type="checkbox" name="layer" value="url1" >School Catchment<br>
+             <input type="checkbox" name="layer" value="url2" > Early French Immersion<br>
+             <input type="checkbox" name="layer" value="url3" > Late French Immersion<br>
+             <input type="checkbox" name="layer" value="url4" > Montessori<br>
+             <input type="submit" value="Submit">
+          </form> 
+          </hr>
+           <button name = "clrbtn" onclick="clearSelection()">Clear</button> 
+          </div>
+          <div class = "col-10" id="map"></div>
+      </div>
+  
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeePEusjA7KEVeq07QGtoPAw3hajnQ5lg&amp;callback=initMap&libraries=places" async defer></script>
+    <script type='text/javascript' src="js/libs/jquery.min.js"></script>
+    <script type='text/javascript' src='js/libs/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/libs/knockout.js'></script>
+    <script type='text/javascript' src="js/app.js"></script>
+    
+  </body>
+</html>

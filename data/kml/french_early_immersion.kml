@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Early French Immersion Catchment</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-AA0000-1-51-normal">
+      <LineStyle>
+        <color>ff0000aa</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330000aa</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-AA0000-1-51-highlight">
+      <LineStyle>
+        <color>ff0000aa</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>330000aa</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-AA0000-1-51">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-AA0000-1-51-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-AA0000-1-51-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Early French Immersion</name>
+      <Placemark>
+        <name>Lord Tweedsmuir (K-7)</name>
+        <description><![CDATA[description: <br>PRIMARY: Lord Tweedsmuir (K-7)<br>MIDDLE: <br>SECONDARY: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Lord Tweedsmuir (K-7)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value/>
+          </Data>
+          <Data name="SECONDARY">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.940475,49.206032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>kml_6</name>
+        <description><![CDATA[description: <br> Attributes<br>  PRIMARY  Lord Tweedsmuir (K-7) <br>PRIMARY: Lord Tweedsmuir (K-7)<br>MIDDLE: <br>SECONDARY: ]]></description>
+        <styleUrl>#poly-AA0000-1-51</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  PRIMARY  Lord Tweedsmuir (K-7) </value>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Lord Tweedsmuir (K-7)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value/>
+          </Data>
+          <Data name="SECONDARY">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <tessellate>1</tessellate>
+                <coordinates>
+                  -122.956355,49.191224,0
+                  -122.960231,49.189545,0
+                  -122.962065,49.175242,0
+                  -122.955629,49.174493,0
+                  -122.944859,49.178447,0
+                  -122.93534,49.182102,0
+                  -122.922627,49.187733,0
+                  -122.916293,49.193256,0
+                  -122.916062,49.195049,0
+                  -122.917028,49.196469,0
+                  -122.922271,49.196921,0
+                  -122.927,49.197297,0
+                  -122.931559,49.197375,0
+                  -122.935434,49.197377,0
+                  -122.941133,49.197903,0
+                  -122.943925,49.197643,0
+                  -122.945465,49.196747,0
+                  -122.951223,49.194658,0
+                  -122.956355,49.191224,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <tessellate>1</tessellate>
+                <coordinates>
+                  -122.9381172,49.2136262,0
+                  -122.938151,49.213653,0
+                  -122.952501,49.206112,0
+                  -122.961295,49.201705,0
+                  -122.9550164,49.1963959,0
+                  -122.952802,49.194523,0
+                  -122.948657,49.195698,0
+                  -122.942769,49.198411,0
+                  -122.93486,49.200439,0
+                  -122.933095,49.200585,0
+                  -122.932988,49.200726,0
+                  -122.931174,49.199819,0
+                  -122.926483,49.202313,0
+                  -122.925415,49.201551,0
+                  -122.924753,49.201194,0
+                  -122.923727,49.20087,0
+                  -122.922357,49.200666,0
+                  -122.921865,49.20092,0
+                  -122.922811,49.20163,0
+                  -122.914192,49.206238,0
+                  -122.921828,49.212334,0
+                  -122.920338,49.213124,0
+                  -122.927724,49.219045,0
+                  -122.938083,49.213644,0
+                  -122.9381172,49.2136262,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark>
+        <name>Herbert Spencer (K-5)</name>
+        <description><![CDATA[description: <br>PRIMARY: Herbert Spencer (K-5)<br>MIDDLE: <br>SECONDARY: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Herbert Spencer (K-5)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value/>
+          </Data>
+          <Data name="SECONDARY">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.913639,49.214706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ecole Qayqayt (K-5)</name>
+        <description><![CDATA[description: <br>PRIMARY: Ecole Qayqayt (K-5)<br>MIDDLE: Fraser River Middle School (6-8)<br>SECONDARY: New Westminster Secondary (9-12)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Ecole Qayqayt (K-5)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value>Fraser River Middle School (6-8)</value>
+          </Data>
+          <Data name="SECONDARY">
+            <value>New Westminster Secondary (9-12)</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.911852,49.201334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>kml_14</name>
+        <description><![CDATA[description: <br> Attributes<br>  PRIMARY  Ecole Qayqayt (K-5) <br>PRIMARY: Ecole Qayqayt (K-5)<br>MIDDLE: <br>SECONDARY: ]]></description>
+        <styleUrl>#poly-AA0000-1-51</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  PRIMARY  Ecole Qayqayt (K-5) </value>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Ecole Qayqayt (K-5)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value/>
+          </Data>
+          <Data name="SECONDARY">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.931174,49.199819,0
+                -122.924119,49.197765,0
+                -122.916236,49.196963,0
+                -122.910262,49.197755,0
+                -122.907983,49.199871,0
+                -122.898485,49.20503,0
+                -122.894442,49.209499,0
+                -122.894364,49.209567,0
+                -122.892505,49.214207,0
+                -122.895149,49.214117,0
+                -122.895747,49.21419,0
+                -122.896863,49.215139,0
+                -122.899173,49.216915,0
+                -122.89999,49.217483,0
+                -122.901673,49.218092,0
+                -122.904628,49.216425,0
+                -122.900447,49.213025,0
+                -122.899552,49.2118,0
+                -122.903751,49.209529,0
+                -122.912385,49.204832,0
+                -122.914192,49.206238,0
+                -122.922811,49.20163,0
+                -122.921865,49.20092,0
+                -122.922357,49.200666,0
+                -122.923727,49.20087,0
+                -122.924753,49.201194,0
+                -122.925415,49.201551,0
+                -122.926483,49.202313,0
+                -122.93025,49.200343,0
+                -122.931174,49.199819,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>kml_10</name>
+        <description><![CDATA[description: <br> Attributes<br>  PRIMARY  Herbert Spencer (K-5) <br>PRIMARY: Herbert Spencer (K-5)<br>MIDDLE: <br>SECONDARY: ]]></description>
+        <styleUrl>#poly-AA0000-1-51</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  PRIMARY  Herbert Spencer (K-5) </value>
+          </Data>
+          <Data name="PRIMARY">
+            <value>Herbert Spencer (K-5)</value>
+          </Data>
+          <Data name="MIDDLE">
+            <value/>
+          </Data>
+          <Data name="SECONDARY">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -122.920382,49.213143,0
+                -122.921829,49.212318,0
+                -122.912385,49.204832,0
+                -122.901348,49.210847,0
+                -122.899552,49.2118,0
+                -122.900447,49.213025,0
+                -122.9046279,49.2164251,0
+                -122.901673,49.218092,0
+                -122.89999,49.217483,0
+                -122.899173,49.216915,0
+                -122.896863,49.215139,0
+                -122.895747,49.21419,0
+                -122.895149,49.214117,0
+                -122.892505,49.214207,0
+                -122.891174,49.218165,0
+                -122.892084,49.21961,0
+                -122.891382,49.221152,0
+                -122.890805,49.22165,0
+                -122.892551,49.222253,0
+                -122.889805,49.224897,0
+                -122.886621,49.22784,0
+                -122.884076,49.230192,0
+                -122.88265,49.231393,0
+                -122.881846,49.232189,0
+                -122.882065,49.233586,0
+                -122.882757,49.234443,0
+                -122.883742,49.235108,0
+                -122.88427,49.235834,0
+                -122.887836,49.237498,0
+                -122.89236,49.239382,0
+                -122.895258,49.239046,0
+                -122.896503,49.237963,0
+                -122.895575,49.236317,0
+                -122.895602,49.235871,0
+                -122.898318,49.234721,0
+                -122.898579,49.234543,0
+                -122.917068,49.224867,0
+                -122.917198,49.224647,0
+                -122.927724,49.219045,0
+                -122.920382,49.213143,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

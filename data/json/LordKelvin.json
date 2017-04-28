@@ -1,0 +1,949 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2017-02-25T21:26:37Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "url": [
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "1010",
+     "execution-time": "1009",
+     "content": "http://britishcolumbia.compareschoolrankings.org/elementary/Lord_Kelvin_Elementary/New_Westminster/Report_Card.aspx"
+    },
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "1010",
+     "execution-time": "1009",
+     "content": "http://britishcolumbia.compareschoolrankings.org/elementary/Lord_Kelvin_Elementary/New_Westminster/Report_Card.aspx"
+    }
+   ],
+   "user-time": "1011",
+   "service-time": "1993",
+   "build-version": "2.0.98"
+  },
+  "results": {
+   "body": {
+    "div": [
+     {
+      "id": "header",
+      "div": {
+       "id": "header_front",
+       "div": [
+        {
+         "style": "position:relative; left:36px; text-align:left",
+         "a": {
+          "href": "http://www.fraserinstitute.org",
+          "style": "position:absolute; top:26px;",
+          "target": "_blank",
+          "img": {
+           "alt": "Fraser Institute",
+           "height": "86",
+           "src": "/images/fi_logo_for_header.jpg",
+           "width": "86"
+          }
+         },
+         "div": {
+          "id": "topnav_container",
+          "style": "position:relative; left:200px;",
+          "ul": {
+           "id": "topnav",
+           "style": "position:absolute; top:97px;",
+           "li": [
+            {
+             "a": {
+              "href": "http://compareschoolrankings.org",
+              "id": "current",
+              "content": "Home"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsByRankLocationName.aspx",
+              "content": "Schools by rank, location, name"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsByAreaMap.aspx",
+              "content": "Schools by Bing® maps"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsCompare.aspx",
+              "content": "Compare Schools"
+             }
+            }
+           ]
+          }
+         }
+        },
+        {
+         "id": "header_links"
+        }
+       ]
+      }
+     },
+     {
+      "id": "container",
+      "form": {
+       "action": "Report_Card.aspx?schooltype=elementary&name=Lord_Kelvin_Elementary&city=New_Westminster",
+       "id": "aspnetForm",
+       "method": "post",
+       "name": "aspnetForm",
+       "div": [
+        {
+         "input": [
+          {
+           "id": "__EVENTTARGET",
+           "name": "__EVENTTARGET",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__EVENTARGUMENT",
+           "name": "__EVENTARGUMENT",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__LASTFOCUS",
+           "name": "__LASTFOCUS",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__VIEWSTATE",
+           "name": "__VIEWSTATE",
+           "type": "hidden",
+           "value": "/wEPDwUKMjAwODE0MDk0Mw9kFgJmD2QWAgICD2QWAgIBD2QWCAIBD2QWAmYPZBYCAgEPZBYCAgMPDxYEHgRUZXh0BSBBZGQgdXAgdG8gc2l4IHNjaG9vbHMgdG8gY29tcGFyZR4LTmF2aWdhdGVVcmwFKi9lbGVtZW50YXJ5L1NjaG9vbHNCeVJhbmtMb2NhdGlvbk5hbWUuYXNweGRkAgIPDxYCHwAFtwE8c3Ryb25nPkxvcmQgS2VsdmluIEVsZW1lbnRhcnk8L3N0cm9uZz48YnIvPlB1YmxpYzxici8+MTAxMCBIYW1pbHRvbiBTdCAgPGJyLz5OZXcgV2VzdG1pbnN0ZXIsIEJDIFYzTSAyTTk8YnIvPlBob25lIE51bWJlcjogNjA0IDUxNy02MDYwPGJyLz48YnIvPlNjaG9vbCBEaXN0cmljdDogTmV3IFdlc3RtaW5zdGVyPGJyLz5kZAIFDw8WAh8AZWRkAgYPZBYEZg8PFgYfAAUmUmVwb3J0IENhcmQgZm9yIExvcmQgS2VsdmluIEVsZW1lbnRhcnkeCENzc0NsYXNzBRFyZXBvcnRjYXJkX2hlYWRlch4EXyFTQgICZGQCBA8PFgIeCEltYWdlVXJsBRp+L0ZJUmF0aW5nSW1nLmFzaHg/dmFsPTUuN2RkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBTtjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHNjaG9vbEJhZyRyYnRuTWFpblNjaG9vbF8wNDA0MDAwMTmSHPt4UG/KkP1gbfl9uiYw2wv0"
+          }
+         ]
+        },
+        {
+         "input": {
+          "id": "__VIEWSTATEGENERATOR",
+          "name": "__VIEWSTATEGENERATOR",
+          "type": "hidden",
+          "value": "C6F73394"
+         }
+        }
+       ],
+       "script": [
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nvar theForm = document.forms['aspnetForm'];\r\nif (!theForm) {\r\n    theForm = document.aspnetForm;\r\n}\r\nfunction __doPostBack(eventTarget, eventArgument) {\r\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\r\n        theForm.__EVENTTARGET.value = eventTarget;\r\n        theForm.__EVENTARGUMENT.value = eventArgument;\r\n        theForm.submit();\r\n    }\r\n}\r\n//]]>\r\n"
+        },
+        {
+         "src": "/WebResource.axd?d=GdbtfYDhbrT5n68-1gFJFYztHcIKGbFAfpqrLTOlJWzy0gCiYl1dWm7A8WLv0xzJNczFNZyJcuXbHxL5AL0iLTkTNeI1&t=635589147570790873",
+         "type": "text/javascript"
+        },
+        {
+         "src": "/ScriptResource.axd?d=-OoXmCbK2yS1lcIHmpbKYE3NHnJDThkGezZLgSjH5paBj3qwegLhW-w9-4mHS-_LE8XgR2aygk6X9i-5QS74ORJ_Vsko6mjxHq87EQsgJXEL2UEIjFJ9PSb_A7Lxp0TvcW_k7nSUl2hbxaKGwhxHegeGc3g1&t=ffffffffbcb9b94a",
+         "type": "text/javascript"
+        },
+        {
+         "src": "/ScriptResource.axd?d=R-C6jlRPrJzua0D2jlf8V2wL-nb8wKI7bZlzL1LhG7MKFGZeI-LBQyhhkpDguVN36thACbnSMZGByfl2zk9Te35BJXGkiDq7VlPWCg3wvuZPJsDLMbVD2K204Z6RFSk39IC7jk_rOUdkz1iPlF47hbY4JqfYJqhXCuVs5_qW4Uf1zpKz0&t=ffffffffbcb9b94a",
+         "type": "text/javascript"
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nSys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', document.getElementById('aspnetForm'));\r\nSys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$updpSchoolBag'], [], [], 90);\r\n//]]>\r\n"
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n        \r\n        window.onload = function () { GetBingMap(); };\r\n        \r\n\r\n//        document.forms['aspnetForm'].onsubmit = function () {return false;}; \r\n\r\n    "
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n"
+        }
+       ],
+       "table": {
+        "align": "left",
+        "border": "0",
+        "cellpadding": "5",
+        "cellspacing": "0",
+        "width": "955",
+        "tbody": {
+         "tr": [
+          {
+           "td": {
+            "align": "center",
+            "colspan": "3",
+            "script": [
+             {
+              "async": "async",
+              "src": "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+             },
+             "\r\n    (adsbygoogle = window.adsbygoogle || []).push({});\r\n"
+            ],
+            "ins": {
+             "class": "adsbygoogle",
+             "data-ad-client": "ca-pub-6781564014780034",
+             "data-ad-slot": "4532381599",
+             "style": "display:inline-block;width:970px;height:90px"
+            }
+           }
+          },
+          {
+           "td": [
+            {
+             "valign": "top",
+             "width": "180",
+             "table": [
+              {
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "style": "padding: 5px; border: 1px solid #779DB0;",
+               "width": "180",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "div": {
+                   "div": {
+                    "style": "color:#31495A; font-weight:bold; background-image: url(/images/icon_blueapple_dark_s.gif);\r\n                                 background-repeat:no-repeat; margin-bottom:3px; padding-left:30px; height:25px;  vertical-align:bottom",
+                    "br": null,
+                    "content": "Use the map's zoom out (-) button to find nearby schools."
+                   }
+                  },
+                  "br": [
+                   null,
+                   null
+                  ]
+                 }
+                }
+               }
+              },
+              {
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "align": "center",
+                  "div": {
+                   "id": "ctl00_ContentPlaceHolder1_updpSchoolBag",
+                   "div": {
+                    "table": {
+                     "cellpadding": "0",
+                     "cellspacing": "0",
+                     "style": "padding: 5px; border: 1px solid #779DB0;",
+                     "width": "98%",
+                     "tbody": {
+                      "tr": {
+                       "td": {
+                        "div": [
+                         {
+                          "id": "ctl00_ContentPlaceHolder1_schoolBag_divCompareNow",
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px; text-align:center;",
+                          "a": {
+                           "href": "/elementary/SchoolsCompare.aspx",
+                           "style": "font-weight: bold",
+                           "content": "Compare now!"
+                          }
+                         },
+                         {
+                          "style": "color:#31495A; font-weight:bold; background-image: url(/images/icon_blueapple_dark_s.gif); background-repeat:no-repeat; margin-bottom:3px; padding-left:34px; height:30px;  vertical-align:bottom",
+                          "a": {
+                           "href": "/elementary/SchoolsByRankLocationName.aspx",
+                           "id": "ctl00_ContentPlaceHolder1_schoolBag_hlAddSchool",
+                           "style": "color:#588498;font-weight:bold;",
+                           "content": "Add up to six schools to compare"
+                          }
+                         },
+                         {
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px;",
+                          "div": {
+                           "style": "margin-bottom:8px; padding-left:2px;",
+                           "table": {
+                            "border": "0",
+                            "cellpadding": "0",
+                            "cellspacing": "4",
+                            "class": "tdreportcard",
+                            "id": "ctl00_ContentPlaceHolder1_schoolBag_tblSchools",
+                            "style": "width:98%;",
+                            "tbody": {
+                             "tr": {
+                              "td": [
+                               {
+                                "a": {
+                                 "href": "/elementary/Lord_Kelvin_Elementary/New_Westminster/Report_Card.aspx",
+                                 "content": "Lord Kelvin (New Westminster)"
+                                }
+                               },
+                               {
+                                "span": {
+                                 "style": "color:Red;",
+                                 "input": {
+                                  "checked": "checked",
+                                  "id": "ctl00_ContentPlaceHolder1_schoolBag_rbtnMainSchool_04040001",
+                                  "name": "ctl00$ContentPlaceHolder1$schoolBag$MainSchool",
+                                  "type": "radio",
+                                  "value": "rbtnMainSchool_04040001"
+                                 }
+                                }
+                               },
+                               {
+                                "a": {
+                                 "href": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$schoolBag$lbtnRemoveSchool_04040001','')",
+                                 "id": "ctl00_ContentPlaceHolder1_schoolBag_lbtnRemoveSchool_04040001",
+                                 "content": "[X]"
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         },
+                         {
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px; text-align:center;",
+                          "a": {
+                           "href": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$schoolBag$lbtnClearSchools','')",
+                           "id": "ctl00_ContentPlaceHolder1_schoolBag_lbtnClearSchools",
+                           "onclick": "return confirm('Are you sure you want to clear your schools?');",
+                           "style": "color:#588498;font-weight:bold;",
+                           "b": "Clear your choices"
+                          }
+                         }
+                        ],
+                        "br": null
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ],
+             "br": [
+              null,
+              null,
+              null
+             ],
+             "script": [
+              {
+               "type": "text/javascript"
+              },
+              {
+               "src": "http://pagead2.googlesyndication.com/pagead/show_ads.js",
+               "type": "text/javascript"
+              }
+             ]
+            },
+            {
+             "style": "padding-left: 5px;",
+             "valign": "top",
+             "width": "290",
+             "div": {
+              "style": "padding: 5px; border: 1px solid #779DB0;",
+              "span": [
+               {
+                "id": "ctl00_ContentPlaceHolder1_SchoolInfoDisplay",
+                "strong": "Lord Kelvin Elementary",
+                "br": [
+                 null,
+                 null,
+                 null,
+                 null,
+                 null,
+                 null,
+                 null
+                ],
+                "content": "Public1010 Hamilton St  New Westminster, BC V3M 2M9Phone Number: 604 517-6060School District: New Westminster"
+               },
+               {
+                "id": "ctl00_ContentPlaceHolder1_lblPhone"
+               }
+              ],
+              "br": [
+               null,
+               null
+              ]
+             },
+             "br": [
+              null,
+              null,
+              null
+             ],
+             "table": [
+              {
+               "style": "padding: 5px; border: 1px solid #779DB0;",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "div": {
+                   "id": "divBingMap",
+                   "style": "position:relative; width:290px; height:290px;"
+                  },
+                  "span": {
+                   "id": "ctl00_ContentPlaceHolder1_lblMessages",
+                   "style": "color:Red;font-weight:bold;"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "border": "0",
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "class": "schoolDetailsLengend",
+               "width": "100%",
+               "tbody": {
+                "tr": [
+                 {
+                  "td": [
+                   {
+                    "class": "legendHeading",
+                    "content": "Legend:"
+                   },
+                   {
+                    "class": "legendHeading",
+                    "colspan": "4",
+                    "style": "text-align:center;",
+                    "content": "Pin Color"
+                   }
+                  ]
+                 },
+                 {
+                  "td": [
+                   {
+                    "class": "legendTabLight",
+                    "content": " "
+                   },
+                   {
+                    "class": "legendTitleGreen",
+                    "content": "Green"
+                   },
+                   {
+                    "class": "legendTitleYellow",
+                    "content": "Yellow"
+                   },
+                   {
+                    "class": "legendTitleOrange",
+                    "content": "Orange"
+                   },
+                   {
+                    "class": "legendTitleRed",
+                    "content": "Red"
+                   }
+                  ]
+                 },
+                 {
+                  "td": [
+                   {
+                    "class": "legendRowHeading",
+                    "style": "font-size:11px",
+                    "br": null,
+                    "content": "Fraser InstituteRating (out of 10)"
+                   },
+                   {
+                    "class": "legendTabDark",
+                    "content": "10.0-7.6"
+                   },
+                   {
+                    "class": "legendTabLight",
+                    "content": "7.5-6.0"
+                   },
+                   {
+                    "class": "legendTabDark",
+                    "content": "5.9-4.1"
+                   },
+                   {
+                    "class": "legendTabLight",
+                    "content": "4.0-0.0"
+                   }
+                  ]
+                 }
+                ]
+               }
+              },
+              {
+               "align": "center",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "script": [
+                   {
+                    "type": "text/javascript"
+                   },
+                   {
+                    "src": "http://pagead2.googlesyndication.com/pagead/show_ads.js",
+                    "type": "text/javascript"
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             ]
+            },
+            {
+             "valign": "top",
+             "div": {
+              "class": "reportcard_container",
+              "span": {
+               "cellpadding": "8",
+               "cellspacing": "0",
+               "class": "reportcard_header",
+               "id": "ctl00_ContentPlaceHolder1_detailedReportCard_lblSchoolName",
+               "style": "display:inline-block;width:460px;",
+               "content": "Report Card for Lord Kelvin Elementary"
+              },
+              "table": [
+               {
+                "border": "0",
+                "cellpadding": "5",
+                "cellspacing": "0",
+                "width": "98%",
+                "tbody": {
+                 "tr": {
+                  "td": [
+                   {
+                    "width": "70%",
+                    "table": {
+                     "border": "0",
+                     "id": "ctl00_ContentPlaceHolder1_detailedReportCard_tblSchoolRank",
+                     "style": "width:100%;font-weight:bold;",
+                     "tbody": {
+                      "tr": [
+                       {
+                        "td": [
+                         "2015-16 Rank",
+                         "518/956"
+                        ]
+                       },
+                       {
+                        "td": [
+                         "Rank in the most recent five years",
+                         "575/780"
+                        ]
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "width": "30%",
+                    "img": {
+                     "alt": "Fraser Institute Ranking",
+                     "id": "ctl00_ContentPlaceHolder1_detailedReportCard_imgRating",
+                     "src": "../../../FIRatingImg.ashx?val=5.7",
+                     "style": "border-width:0px;"
+                    }
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "border": "0",
+                "cellpadding": "5",
+                "class": "tdreportcard_sub",
+                "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_tblProps",
+                "style": "width:98%;",
+                "tbody": {
+                 "tr": [
+                  {
+                   "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_trHeader",
+                   "td": {
+                    "class": "tdreportcard_sub_header",
+                    "colspan": "2",
+                    "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_tdHeaderCell",
+                    "content": "\r\n            School Information\r\n        "
+                   }
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Gr 4 enrollment"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "49"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "ESL (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "42.8"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Special needs (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "8.9"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "French Immersion (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "0.0"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Parents' average income ($)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "n/a"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Actual rating vs. predicted based on parents' avg. inc."
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "n/a"
+                    }
+                   ]
+                  }
+                 ]
+                }
+               },
+               {
+                "border": "0",
+                "cellpadding": "8",
+                "cellspacing": "0",
+                "width": "100%",
+                "tbody": {
+                 "tr": {
+                  "td": {
+                   "table": {
+                    "border": "0",
+                    "cellpadding": "5",
+                    "cellspacing": "0",
+                    "class": "tdreportcard",
+                    "id": "ctl00_ContentPlaceHolder1_detailedReportCard_tblReportCard",
+                    "style": "width:100%;border-collapse:collapse;",
+                    "tbody": {
+                     "tr": [
+                      {
+                       "class": "headerCell",
+                       "style": "background-color:Gray;",
+                       "td": [
+                        "Academic Performance",
+                        "2012",
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "Trend"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 4 avg score: Reading",
+                        "406",
+                        "462",
+                        "451",
+                        "482",
+                        "434",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 4 avg score: Writing",
+                        "491",
+                        "573",
+                        "560",
+                        "547",
+                        "551",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 4 avg score: Numeracy",
+                        "394",
+                        "460",
+                        "485",
+                        "464",
+                        "436",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 avg score: Reading",
+                        "446",
+                        "465",
+                        "459",
+                        "489",
+                        "503",
+                        {
+                         "img": {
+                          "alt": "Trend up",
+                          "src": "/images/arrow_up_small.gif"
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 7 avg score: Writing",
+                        "570",
+                        "595",
+                        "536",
+                        "488",
+                        "562",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 avg score: Numeracy",
+                        "391",
+                        "467",
+                        "488",
+                        "471",
+                        "506",
+                        {
+                         "img": {
+                          "alt": "Trend up",
+                          "src": "/images/arrow_up_small.gif"
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 7 gender gap: Reading",
+                        "M 10",
+                        "F 61",
+                        "M 6",
+                        "F 33",
+                        "M 11",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 gender gap: Numeracy",
+                        "M 22",
+                        "M 28",
+                        "M 29",
+                        "F 45",
+                        "M 11",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Below expectations (%)",
+                        "39.5",
+                        "22.6",
+                        "19.8",
+                        "18.3",
+                        "26.6",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Tests not written (%)",
+                        "6.9",
+                        "13.2",
+                        "18.5",
+                        "14.6",
+                        "21.8",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_result",
+                       "td": [
+                        "Overall rating out of 10",
+                        "3.6",
+                        "5.0",
+                        "5.6",
+                        "5.4",
+                        "5.7",
+                        {
+                         "img": {
+                          "alt": "Trend up",
+                          "src": "/images/arrow_up_small.gif"
+                         }
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              ],
+              "div": {
+               "class": "reportcard_disclaimer",
+               "a": [
+                {
+                 "href": "#",
+                 "onclick": "MM_openBrWindow('/SchoolDetailsPrintable.aspx?schoolType=elementary&name=Lord_Kelvin_Elementary&city=New Westminster','Printable','scrollbars=yes,resizable=1,width=810,height=780')",
+                 "content": "Printable Version"
+                },
+                {
+                 "href": "#",
+                 "onclick": "MM_openBrWindow('/help/How_to_read_Fraser_Institute_Report_Card_on_British_Columbia’s_Elementary_Schools_2017.html','help','scrollbars=yes,resizable=yes,width=620,height=500')",
+                 "content": "How to read the Report Card"
+                }
+               ],
+               "br": [
+                null,
+                null,
+                null,
+                null
+               ]
+              }
+             }
+            }
+           ]
+          }
+         ]
+        }
+       },
+       "br": [
+        null,
+        null
+       ]
+      },
+      "br": {
+       "class": "clearfloat"
+      }
+     },
+     {
+      "class": "disclaimer",
+      "style": "color:#555; margin:10px auto; width:750px;",
+      "span": {
+       "id": "ctl00_lblFooter",
+       "center": {
+        "br": [
+         null,
+         null,
+         null,
+         null
+        ],
+        "a": [
+         {
+          "href": "/elementary/SchoolsByRankLocationName.aspx",
+          "content": "Compare school rankings and ratings for elementary schools in Vancouver, Victoria, Surrey, Richmond, Nanaimo, Prince George, Kamloops, Kelowna and other BC cities"
+         },
+         {
+          "href": "/secondary/SchoolsByRankLocationName.aspx",
+          "content": "Compare school rankings and ratings for secondary schools in Vancouver, Victoria, Surrey, Richmond, Nanaimo, Prince George, Kamloops, Kelowna and other BC cities"
+         },
+         {
+          "href": "http://compareschoolrankings.org",
+          "br": [
+           null,
+           null,
+           null
+          ],
+          "content": "Compare school rankings and ratings for:elementary and high schools in Calgary, Edmonton, Fort McMurray, Lethbridge, Red Deer, Medicine Hat and other Alberta citieselementary and secondary schools in Toronto, Mississauga, London, Ottawa, Hamilton, Windsor, Kitchener, St Catharines, Oshawa, Kingston, Waterloo and other Ontario citiesComparez les classements et les évaluations des écoles secondaires à Montréal et dans d’autres villes et localités du Québec"
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "footer",
+      "a": [
+       {
+        "class": "fraserLogoLink",
+        "href": "http://www.fraserinstitute.org",
+        "target": "_blank",
+        "content": "These school rankings are a program of the Fraser Institute"
+       },
+       {
+        "href": "/elementary/Copyright.aspx",
+        "target": "_blank",
+        "content": "Copyright"
+       },
+       {
+        "href": "/elementary/Privacy.aspx",
+        "target": "_blank",
+        "content": "Privacy Policy"
+       },
+       {
+        "href": "/elementary/Contact.aspx",
+        "target": "_blank",
+        "content": "Contact us"
+       },
+       {
+        "href": "/elementary/About.aspx",
+        "target": "_blank",
+        "content": "About report cards"
+       }
+      ],
+      "content": " |   |  |  | "
+     }
+    ],
+    "br": {
+     "class": "clearfloat"
+    },
+    "script": [
+     {
+      "type": "text/javascript",
+      "content": "\r\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n"
+     },
+     {
+      "type": "text/javascript",
+      "content": "\r\ntry {\r\nvar pageTracker = _gat._getTracker(\"UA-3850680-10\");\r\npageTracker._trackPageview();\r\n} catch(err) {}"
+     }
+    ]
+   }
+  }
+ }
+}

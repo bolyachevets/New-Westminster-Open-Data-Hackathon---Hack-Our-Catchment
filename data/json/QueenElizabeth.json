@@ -1,0 +1,944 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2017-02-25T21:22:55Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "url": [
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "849",
+     "execution-time": "848",
+     "content": "http://britishcolumbia.compareschoolrankings.org/elementary/Queen_Elizabeth_Elementary/New_Westminster/Report_Card.aspx"
+    },
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "849",
+     "execution-time": "848",
+     "content": "http://britishcolumbia.compareschoolrankings.org/elementary/Queen_Elizabeth_Elementary/New_Westminster/Report_Card.aspx"
+    }
+   ],
+   "user-time": "851",
+   "service-time": "1665",
+   "build-version": "2.0.84"
+  },
+  "results": {
+   "body": {
+    "div": [
+     {
+      "id": "header",
+      "div": {
+       "id": "header_front",
+       "div": [
+        {
+         "style": "position:relative; left:36px; text-align:left",
+         "a": {
+          "href": "http://www.fraserinstitute.org",
+          "style": "position:absolute; top:26px;",
+          "target": "_blank",
+          "img": {
+           "alt": "Fraser Institute",
+           "height": "86",
+           "src": "/images/fi_logo_for_header.jpg",
+           "width": "86"
+          }
+         },
+         "div": {
+          "id": "topnav_container",
+          "style": "position:relative; left:200px;",
+          "ul": {
+           "id": "topnav",
+           "style": "position:absolute; top:97px;",
+           "li": [
+            {
+             "a": {
+              "href": "http://compareschoolrankings.org",
+              "id": "current",
+              "content": "Home"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsByRankLocationName.aspx",
+              "content": "Schools by rank, location, name"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsByAreaMap.aspx",
+              "content": "Schools by Bing® maps"
+             }
+            },
+            {
+             "a": {
+              "href": "/elementary/SchoolsCompare.aspx",
+              "content": "Compare Schools"
+             }
+            }
+           ]
+          }
+         }
+        },
+        {
+         "id": "header_links"
+        }
+       ]
+      }
+     },
+     {
+      "id": "container",
+      "form": {
+       "action": "Report_Card.aspx?schooltype=elementary&name=Queen_Elizabeth_Elementary&city=New_Westminster",
+       "id": "aspnetForm",
+       "method": "post",
+       "name": "aspnetForm",
+       "div": [
+        {
+         "input": [
+          {
+           "id": "__EVENTTARGET",
+           "name": "__EVENTTARGET",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__EVENTARGUMENT",
+           "name": "__EVENTARGUMENT",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__LASTFOCUS",
+           "name": "__LASTFOCUS",
+           "type": "hidden",
+           "value": ""
+          },
+          {
+           "id": "__VIEWSTATE",
+           "name": "__VIEWSTATE",
+           "type": "hidden",
+           "value": "/wEPDwUKMjAwODE0MDk0Mw9kFgJmD2QWAgICD2QWAgIBD2QWCAIBD2QWAmYPZBYCAgEPZBYCAgMPDxYEHgRUZXh0BSBBZGQgdXAgdG8gc2l4IHNjaG9vbHMgdG8gY29tcGFyZR4LTmF2aWdhdGVVcmwFKi9lbGVtZW50YXJ5L1NjaG9vbHNCeVJhbmtMb2NhdGlvbk5hbWUuYXNweGRkAgIPDxYCHwAFuAE8c3Ryb25nPlF1ZWVuIEVsaXphYmV0aCBFbGVtZW50YXJ5PC9zdHJvbmc+PGJyLz5QdWJsaWM8YnIvPjkyMSBTYWx0ZXIgU3QgIDxici8+TmV3IFdlc3RtaW5zdGVyLCBCQyBWM00gNkc4PGJyLz5QaG9uZSBOdW1iZXI6IDYwNCA1MTctNjA4MDxici8+PGJyLz5TY2hvb2wgRGlzdHJpY3Q6IE5ldyBXZXN0bWluc3Rlcjxici8+ZGQCBQ8PFgIfAGVkZAIGD2QWBGYPDxYGHwAFKlJlcG9ydCBDYXJkIGZvciBRdWVlbiBFbGl6YWJldGggRWxlbWVudGFyeR4IQ3NzQ2xhc3MFEXJlcG9ydGNhcmRfaGVhZGVyHgRfIVNCAgJkZAIEDw8WAh4ISW1hZ2VVcmwFGn4vRklSYXRpbmdJbWcuYXNoeD92YWw9NS4zZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFO2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkc2Nob29sQmFnJHJidG5NYWluU2Nob29sXzA0MDQwMDEy+/ZbwIOa2tRfbh8xHETxo697JVo="
+          }
+         ]
+        },
+        {
+         "input": {
+          "id": "__VIEWSTATEGENERATOR",
+          "name": "__VIEWSTATEGENERATOR",
+          "type": "hidden",
+          "value": "C6F73394"
+         }
+        }
+       ],
+       "script": [
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nvar theForm = document.forms['aspnetForm'];\r\nif (!theForm) {\r\n    theForm = document.aspnetForm;\r\n}\r\nfunction __doPostBack(eventTarget, eventArgument) {\r\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\r\n        theForm.__EVENTTARGET.value = eventTarget;\r\n        theForm.__EVENTARGUMENT.value = eventArgument;\r\n        theForm.submit();\r\n    }\r\n}\r\n//]]>\r\n"
+        },
+        {
+         "src": "/WebResource.axd?d=GdbtfYDhbrT5n68-1gFJFYztHcIKGbFAfpqrLTOlJWzy0gCiYl1dWm7A8WLv0xzJNczFNZyJcuXbHxL5AL0iLTkTNeI1&t=635589147570790873",
+         "type": "text/javascript"
+        },
+        {
+         "src": "/ScriptResource.axd?d=-OoXmCbK2yS1lcIHmpbKYE3NHnJDThkGezZLgSjH5paBj3qwegLhW-w9-4mHS-_LE8XgR2aygk6X9i-5QS74ORJ_Vsko6mjxHq87EQsgJXEL2UEIjFJ9PSb_A7Lxp0TvcW_k7nSUl2hbxaKGwhxHegeGc3g1&t=ffffffffbcb9b94a",
+         "type": "text/javascript"
+        },
+        {
+         "src": "/ScriptResource.axd?d=R-C6jlRPrJzua0D2jlf8V2wL-nb8wKI7bZlzL1LhG7MKFGZeI-LBQyhhkpDguVN36thACbnSMZGByfl2zk9Te35BJXGkiDq7VlPWCg3wvuZPJsDLMbVD2K204Z6RFSk39IC7jk_rOUdkz1iPlF47hbY4JqfYJqhXCuVs5_qW4Uf1zpKz0&t=ffffffffbcb9b94a",
+         "type": "text/javascript"
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nSys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', document.getElementById('aspnetForm'));\r\nSys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$updpSchoolBag'], [], [], 90);\r\n//]]>\r\n"
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n        \r\n        window.onload = function () { GetBingMap(); };\r\n        \r\n\r\n//        document.forms['aspnetForm'].onsubmit = function () {return false;}; \r\n\r\n    "
+        },
+        {
+         "type": "text/javascript",
+         "content": "\r\n//<![CDATA[\r\nSys.Application.initialize();\r\n//]]>\r\n"
+        }
+       ],
+       "table": {
+        "align": "left",
+        "border": "0",
+        "cellpadding": "5",
+        "cellspacing": "0",
+        "width": "955",
+        "tbody": {
+         "tr": [
+          {
+           "td": {
+            "align": "center",
+            "colspan": "3",
+            "script": [
+             {
+              "async": "async",
+              "src": "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+             },
+             "\r\n    (adsbygoogle = window.adsbygoogle || []).push({});\r\n"
+            ],
+            "ins": {
+             "class": "adsbygoogle",
+             "data-ad-client": "ca-pub-6781564014780034",
+             "data-ad-slot": "4532381599",
+             "style": "display:inline-block;width:970px;height:90px"
+            }
+           }
+          },
+          {
+           "td": [
+            {
+             "valign": "top",
+             "width": "180",
+             "table": [
+              {
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "style": "padding: 5px; border: 1px solid #779DB0;",
+               "width": "180",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "div": {
+                   "div": {
+                    "style": "color:#31495A; font-weight:bold; background-image: url(/images/icon_blueapple_dark_s.gif);\r\n                                 background-repeat:no-repeat; margin-bottom:3px; padding-left:30px; height:25px;  vertical-align:bottom",
+                    "br": null,
+                    "content": "Use the map's zoom out (-) button to find nearby schools."
+                   }
+                  },
+                  "br": [
+                   null,
+                   null
+                  ]
+                 }
+                }
+               }
+              },
+              {
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "align": "center",
+                  "div": {
+                   "id": "ctl00_ContentPlaceHolder1_updpSchoolBag",
+                   "div": {
+                    "table": {
+                     "cellpadding": "0",
+                     "cellspacing": "0",
+                     "style": "padding: 5px; border: 1px solid #779DB0;",
+                     "width": "98%",
+                     "tbody": {
+                      "tr": {
+                       "td": {
+                        "div": [
+                         {
+                          "id": "ctl00_ContentPlaceHolder1_schoolBag_divCompareNow",
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px; text-align:center;",
+                          "a": {
+                           "href": "/elementary/SchoolsCompare.aspx",
+                           "style": "font-weight: bold",
+                           "content": "Compare now!"
+                          }
+                         },
+                         {
+                          "style": "color:#31495A; font-weight:bold; background-image: url(/images/icon_blueapple_dark_s.gif); background-repeat:no-repeat; margin-bottom:3px; padding-left:34px; height:30px;  vertical-align:bottom",
+                          "a": {
+                           "href": "/elementary/SchoolsByRankLocationName.aspx",
+                           "id": "ctl00_ContentPlaceHolder1_schoolBag_hlAddSchool",
+                           "style": "color:#588498;font-weight:bold;",
+                           "content": "Add up to six schools to compare"
+                          }
+                         },
+                         {
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px;",
+                          "div": {
+                           "style": "margin-bottom:8px; padding-left:2px;",
+                           "table": {
+                            "border": "0",
+                            "cellpadding": "0",
+                            "cellspacing": "4",
+                            "class": "tdreportcard",
+                            "id": "ctl00_ContentPlaceHolder1_schoolBag_tblSchools",
+                            "style": "width:98%;",
+                            "tbody": {
+                             "tr": {
+                              "td": [
+                               {
+                                "a": {
+                                 "href": "/elementary/Queen_Elizabeth_Elementary/New_Westminster/Report_Card.aspx",
+                                 "content": "Queen Elizabeth (New Westminster)"
+                                }
+                               },
+                               {
+                                "span": {
+                                 "style": "color:Red;",
+                                 "input": {
+                                  "checked": "checked",
+                                  "id": "ctl00_ContentPlaceHolder1_schoolBag_rbtnMainSchool_04040012",
+                                  "name": "ctl00$ContentPlaceHolder1$schoolBag$MainSchool",
+                                  "type": "radio",
+                                  "value": "rbtnMainSchool_04040012"
+                                 }
+                                }
+                               },
+                               {
+                                "a": {
+                                 "href": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$schoolBag$lbtnRemoveSchool_04040012','')",
+                                 "id": "ctl00_ContentPlaceHolder1_schoolBag_lbtnRemoveSchool_04040012",
+                                 "content": "[X]"
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         },
+                         {
+                          "style": "border:1px solid #779DB0; background-color:#F3F3F3; clear:both; padding:6px; text-align:center;",
+                          "a": {
+                           "href": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$schoolBag$lbtnClearSchools','')",
+                           "id": "ctl00_ContentPlaceHolder1_schoolBag_lbtnClearSchools",
+                           "onclick": "return confirm('Are you sure you want to clear your schools?');",
+                           "style": "color:#588498;font-weight:bold;",
+                           "b": "Clear your choices"
+                          }
+                         }
+                        ],
+                        "br": null
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ],
+             "br": [
+              null,
+              null,
+              null
+             ],
+             "script": [
+              {
+               "type": "text/javascript"
+              },
+              {
+               "src": "http://pagead2.googlesyndication.com/pagead/show_ads.js",
+               "type": "text/javascript"
+              }
+             ]
+            },
+            {
+             "style": "padding-left: 5px;",
+             "valign": "top",
+             "width": "290",
+             "div": {
+              "style": "padding: 5px; border: 1px solid #779DB0;",
+              "span": [
+               {
+                "id": "ctl00_ContentPlaceHolder1_SchoolInfoDisplay",
+                "strong": "Queen Elizabeth Elementary",
+                "br": [
+                 null,
+                 null,
+                 null,
+                 null,
+                 null,
+                 null,
+                 null
+                ],
+                "content": "Public921 Salter St  New Westminster, BC V3M 6G8Phone Number: 604 517-6080School District: New Westminster"
+               },
+               {
+                "id": "ctl00_ContentPlaceHolder1_lblPhone"
+               }
+              ],
+              "br": [
+               null,
+               null
+              ]
+             },
+             "br": [
+              null,
+              null,
+              null
+             ],
+             "table": [
+              {
+               "style": "padding: 5px; border: 1px solid #779DB0;",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "div": {
+                   "id": "divBingMap",
+                   "style": "position:relative; width:290px; height:290px;"
+                  },
+                  "span": {
+                   "id": "ctl00_ContentPlaceHolder1_lblMessages",
+                   "style": "color:Red;font-weight:bold;"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "border": "0",
+               "cellpadding": "0",
+               "cellspacing": "0",
+               "class": "schoolDetailsLengend",
+               "width": "100%",
+               "tbody": {
+                "tr": [
+                 {
+                  "td": [
+                   {
+                    "class": "legendHeading",
+                    "content": "Legend:"
+                   },
+                   {
+                    "class": "legendHeading",
+                    "colspan": "4",
+                    "style": "text-align:center;",
+                    "content": "Pin Color"
+                   }
+                  ]
+                 },
+                 {
+                  "td": [
+                   {
+                    "class": "legendTabLight",
+                    "content": " "
+                   },
+                   {
+                    "class": "legendTitleGreen",
+                    "content": "Green"
+                   },
+                   {
+                    "class": "legendTitleYellow",
+                    "content": "Yellow"
+                   },
+                   {
+                    "class": "legendTitleOrange",
+                    "content": "Orange"
+                   },
+                   {
+                    "class": "legendTitleRed",
+                    "content": "Red"
+                   }
+                  ]
+                 },
+                 {
+                  "td": [
+                   {
+                    "class": "legendRowHeading",
+                    "style": "font-size:11px",
+                    "br": null,
+                    "content": "Fraser InstituteRating (out of 10)"
+                   },
+                   {
+                    "class": "legendTabDark",
+                    "content": "10.0-7.6"
+                   },
+                   {
+                    "class": "legendTabLight",
+                    "content": "7.5-6.0"
+                   },
+                   {
+                    "class": "legendTabDark",
+                    "content": "5.9-4.1"
+                   },
+                   {
+                    "class": "legendTabLight",
+                    "content": "4.0-0.0"
+                   }
+                  ]
+                 }
+                ]
+               }
+              },
+              {
+               "align": "center",
+               "tbody": {
+                "tr": {
+                 "td": {
+                  "script": [
+                   {
+                    "type": "text/javascript"
+                   },
+                   {
+                    "src": "http://pagead2.googlesyndication.com/pagead/show_ads.js",
+                    "type": "text/javascript"
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             ]
+            },
+            {
+             "valign": "top",
+             "div": {
+              "class": "reportcard_container",
+              "span": {
+               "cellpadding": "8",
+               "cellspacing": "0",
+               "class": "reportcard_header",
+               "id": "ctl00_ContentPlaceHolder1_detailedReportCard_lblSchoolName",
+               "style": "display:inline-block;width:460px;",
+               "content": "Report Card for Queen Elizabeth Elementary"
+              },
+              "table": [
+               {
+                "border": "0",
+                "cellpadding": "5",
+                "cellspacing": "0",
+                "width": "98%",
+                "tbody": {
+                 "tr": {
+                  "td": [
+                   {
+                    "width": "70%",
+                    "table": {
+                     "border": "0",
+                     "id": "ctl00_ContentPlaceHolder1_detailedReportCard_tblSchoolRank",
+                     "style": "width:100%;font-weight:bold;",
+                     "tbody": {
+                      "tr": [
+                       {
+                        "td": [
+                         "2015-16 Rank",
+                         "614/956"
+                        ]
+                       },
+                       {
+                        "td": [
+                         "Rank in the most recent five years",
+                         "432/780"
+                        ]
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "width": "30%",
+                    "img": {
+                     "alt": "Fraser Institute Ranking",
+                     "id": "ctl00_ContentPlaceHolder1_detailedReportCard_imgRating",
+                     "src": "../../../FIRatingImg.ashx?val=5.3",
+                     "style": "border-width:0px;"
+                    }
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "border": "0",
+                "cellpadding": "5",
+                "class": "tdreportcard_sub",
+                "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_tblProps",
+                "style": "width:98%;",
+                "tbody": {
+                 "tr": [
+                  {
+                   "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_trHeader",
+                   "td": {
+                    "class": "tdreportcard_sub_header",
+                    "colspan": "2",
+                    "id": "ctl00_ContentPlaceHolder1_detailedReportCard_SchoolProperties1_tdHeaderCell",
+                    "content": "\r\n            School Information\r\n        "
+                   }
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Gr 4 enrollment"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "62"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "ESL (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "48.2"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Special needs (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "5.3"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "French Immersion (%)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "0.0"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Parents' average income ($)"
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "n/a"
+                    }
+                   ]
+                  },
+                  {
+                   "class": "tdreportcard_info",
+                   "td": [
+                    {
+                     "style": "width:50%;",
+                     "content": "Actual rating vs. predicted based on parents' avg. inc."
+                    },
+                    {
+                     "style": "width:50%;",
+                     "content": "n/a"
+                    }
+                   ]
+                  }
+                 ]
+                }
+               },
+               {
+                "border": "0",
+                "cellpadding": "8",
+                "cellspacing": "0",
+                "width": "100%",
+                "tbody": {
+                 "tr": {
+                  "td": {
+                   "table": {
+                    "border": "0",
+                    "cellpadding": "5",
+                    "cellspacing": "0",
+                    "class": "tdreportcard",
+                    "id": "ctl00_ContentPlaceHolder1_detailedReportCard_tblReportCard",
+                    "style": "width:100%;border-collapse:collapse;",
+                    "tbody": {
+                     "tr": [
+                      {
+                       "class": "headerCell",
+                       "style": "background-color:Gray;",
+                       "td": [
+                        "Academic Performance",
+                        "2012",
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016",
+                        "Trend"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 4 avg score: Reading",
+                        "456",
+                        "482",
+                        "420",
+                        "474",
+                        "444",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 4 avg score: Writing",
+                        "496",
+                        "627",
+                        "599",
+                        "594",
+                        "502",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 4 avg score: Numeracy",
+                        "441",
+                        "492",
+                        "447",
+                        "496",
+                        "486",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 avg score: Reading",
+                        "461",
+                        "464",
+                        "489",
+                        "480",
+                        "501",
+                        {
+                         "img": {
+                          "alt": "Trend up",
+                          "src": "/images/arrow_up_small.gif"
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 7 avg score: Writing",
+                        "572",
+                        "599",
+                        "587",
+                        "577",
+                        "609",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 avg score: Numeracy",
+                        "435",
+                        "473",
+                        "484",
+                        "473",
+                        "482",
+                        {
+                         "img": {
+                          "alt": "Trend up",
+                          "src": "/images/arrow_up_small.gif"
+                         }
+                        }
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Gr 7 gender gap: Reading",
+                        "F 45",
+                        "M 4",
+                        "F 17",
+                        "M 2",
+                        "F 76",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Gr 7 gender gap: Numeracy",
+                        "F 13",
+                        "M 32",
+                        "M 2",
+                        "M 29",
+                        "F 43",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header",
+                       "td": [
+                        "Below expectations (%)",
+                        "26.9",
+                        "17.1",
+                        "23.6",
+                        "13.8",
+                        "20.4",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_header2",
+                       "td": [
+                        "Tests not written (%)",
+                        "8.8",
+                        "9.0",
+                        "13.5",
+                        "7.5",
+                        "8.1",
+                        "—"
+                       ]
+                      },
+                      {
+                       "class": "tdreportcard_result",
+                       "td": [
+                        "Overall rating out of 10",
+                        "4.7",
+                        "6.3",
+                        "5.9",
+                        "6.6",
+                        "5.3",
+                        "—"
+                       ]
+                      }
+                     ]
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              ],
+              "div": {
+               "class": "reportcard_disclaimer",
+               "a": [
+                {
+                 "href": "#",
+                 "onclick": "MM_openBrWindow('/SchoolDetailsPrintable.aspx?schoolType=elementary&name=Queen_Elizabeth_Elementary&city=New Westminster','Printable','scrollbars=yes,resizable=1,width=810,height=780')",
+                 "content": "Printable Version"
+                },
+                {
+                 "href": "#",
+                 "onclick": "MM_openBrWindow('/help/How_to_read_Fraser_Institute_Report_Card_on_British_Columbia’s_Elementary_Schools_2017.html','help','scrollbars=yes,resizable=yes,width=620,height=500')",
+                 "content": "How to read the Report Card"
+                }
+               ],
+               "br": [
+                null,
+                null,
+                null,
+                null
+               ]
+              }
+             }
+            }
+           ]
+          }
+         ]
+        }
+       },
+       "br": [
+        null,
+        null
+       ]
+      },
+      "br": {
+       "class": "clearfloat"
+      }
+     },
+     {
+      "class": "disclaimer",
+      "style": "color:#555; margin:10px auto; width:750px;",
+      "span": {
+       "id": "ctl00_lblFooter",
+       "center": {
+        "br": [
+         null,
+         null,
+         null,
+         null
+        ],
+        "a": [
+         {
+          "href": "/elementary/SchoolsByRankLocationName.aspx",
+          "content": "Compare school rankings and ratings for elementary schools in Vancouver, Victoria, Surrey, Richmond, Nanaimo, Prince George, Kamloops, Kelowna and other BC cities"
+         },
+         {
+          "href": "/secondary/SchoolsByRankLocationName.aspx",
+          "content": "Compare school rankings and ratings for secondary schools in Vancouver, Victoria, Surrey, Richmond, Nanaimo, Prince George, Kamloops, Kelowna and other BC cities"
+         },
+         {
+          "href": "http://compareschoolrankings.org",
+          "br": [
+           null,
+           null,
+           null
+          ],
+          "content": "Compare school rankings and ratings for:elementary and high schools in Calgary, Edmonton, Fort McMurray, Lethbridge, Red Deer, Medicine Hat and other Alberta citieselementary and secondary schools in Toronto, Mississauga, London, Ottawa, Hamilton, Windsor, Kitchener, St Catharines, Oshawa, Kingston, Waterloo and other Ontario citiesComparez les classements et les évaluations des écoles secondaires à Montréal et dans d’autres villes et localités du Québec"
+         }
+        ]
+       }
+      }
+     },
+     {
+      "id": "footer",
+      "a": [
+       {
+        "class": "fraserLogoLink",
+        "href": "http://www.fraserinstitute.org",
+        "target": "_blank",
+        "content": "These school rankings are a program of the Fraser Institute"
+       },
+       {
+        "href": "/elementary/Copyright.aspx",
+        "target": "_blank",
+        "content": "Copyright"
+       },
+       {
+        "href": "/elementary/Privacy.aspx",
+        "target": "_blank",
+        "content": "Privacy Policy"
+       },
+       {
+        "href": "/elementary/Contact.aspx",
+        "target": "_blank",
+        "content": "Contact us"
+       },
+       {
+        "href": "/elementary/About.aspx",
+        "target": "_blank",
+        "content": "About report cards"
+       }
+      ],
+      "content": " |   |  |  | "
+     }
+    ],
+    "br": {
+     "class": "clearfloat"
+    },
+    "script": [
+     {
+      "type": "text/javascript",
+      "content": "\r\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n"
+     },
+     {
+      "type": "text/javascript",
+      "content": "\r\ntry {\r\nvar pageTracker = _gat._getTracker(\"UA-3850680-10\");\r\npageTracker._trackPageview();\r\n} catch(err) {}"
+     }
+    ]
+   }
+  }
+ }
+}
